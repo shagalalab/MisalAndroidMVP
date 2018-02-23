@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">MisalAndroidMVP</string>
+    <string name="app_name">MısalAndroidMVP</string>
+    <string name="username">Paydalanıwshı atıńız</string>
+    <string name="password">Parolińiz</string>
+    <string name="login">Kiriw</string>
+    <string name="empty_username">Paydalanıwshı atıńızdı jazıń</string>
+    <string name="short_username">Paydalanıwshı atıńız keminde 4 simvoldan ibarat bolıwı kerek</string>
+    <string name="empty_password">Parolińizdi jazıń</string>
+    <string name="short_password">Parolińiz keminde 6 simvoldan ibarat bolıwı kerek</string>
+    <string name="username_password_not_match">Siz bergen paydalanıwshı atıńız benen parolińiz tuwrı kelmedi</string>
 </resources>
