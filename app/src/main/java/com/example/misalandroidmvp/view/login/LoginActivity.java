@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         login = findViewById(R.id.login);
         login.setOnClickListener(loginClickListener);
 
-        presenter = new LoginPresenter(this, new UserRepository());
+        presenter = new LoginPresenter(this, UserRepository.getInstance());
     }
 
     private View.OnClickListener loginClickListener = new View.OnClickListener() {

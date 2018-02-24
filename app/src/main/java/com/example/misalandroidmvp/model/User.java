@@ -13,6 +13,13 @@ public class User {
     private String password;
     private String name;
 
+    User() {
+        this.id = USER_NOT_FOUND;
+        this.username = "";
+        this.password = "";
+        this.name = "";
+    }
+
     User(int id, String username, String password, String name) {
         this.id = id;
         this.username = username;

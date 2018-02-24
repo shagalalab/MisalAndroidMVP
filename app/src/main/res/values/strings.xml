@@ -8,4 +8,9 @@
     <string name="empty_password">Parolińizdi jazıń</string>
     <string name="short_password">Parolińiz keminde 6 simvoldan ibarat bolıwı kerek</string>
     <string name="username_password_not_match">Siz bergen paydalanıwshı atıńız benen parolińiz tuwrı kelmedi</string>
+    <string name="user_details_title">Paydalanıwshı haqqinda maǵlıwmat</string>
+    <string name="user_details_id">Id: %d</string>
+    <string name="user_details_username">Paydalanıwshı atı: %s</string>
+    <string name="user_details_password">Paroli: %s</string>
+    <string name="user_details_name">Atı: %s</string>
 </resources>
