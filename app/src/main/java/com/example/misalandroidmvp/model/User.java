@@ -42,4 +42,16 @@ public class User {
     public String getName() {
         return name;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof User)) return false;
+
+        User that = (User) obj;
+
+        return this.getId() == that.getId()
+            && this.getUsername().equals(that.getUsername())
+            && this.getPassword().equals(that.getPassword())
+            && this.getName().equals(that.getName());
+    }
 }

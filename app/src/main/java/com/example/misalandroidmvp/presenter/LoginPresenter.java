@@ -10,8 +10,8 @@ import com.example.misalandroidmvp.view.login.LoginView;
  */
 
 public class LoginPresenter {
-    private static final int USERNAME_LENGTH = 4;
-    private static final int PASSWORD_LENGTH = 6;
+    private static final int USERNAME_MIN_LENGTH = 4;
+    private static final int PASSWORD_MIN_LENGTH = 6;
 
     private LoginView view;
     private UserRepository repository;
@@ -39,7 +39,7 @@ public class LoginPresenter {
         if (username.isEmpty()) {
             view.showUsernameError(R.string.empty_username);
             return false;
-        } else if (username.length() < USERNAME_LENGTH) {
+        } else if (username.length() < USERNAME_MIN_LENGTH) {
             view.showUsernameError(R.string.short_username);
             return false;
         }
@@ -47,7 +47,7 @@ public class LoginPresenter {
         if (password.isEmpty()) {
             view.showPasswordError(R.string.empty_password);
             return false;
-        } else if (password.length() < PASSWORD_LENGTH) {
+        } else if (password.length() < PASSWORD_MIN_LENGTH) {
             view.showPasswordError(R.string.short_password);
             return false;
         }

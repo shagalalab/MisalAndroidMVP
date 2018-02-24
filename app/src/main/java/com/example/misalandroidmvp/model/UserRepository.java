@@ -11,7 +11,7 @@ public class UserRepository {
     private List<User> userList = new ArrayList<>();
     private static UserRepository instance;
 
-    private UserRepository() {
+    UserRepository() {
         initUsers();
     }
 
